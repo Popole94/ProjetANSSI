@@ -25,3 +25,5 @@ print( "CVE référencés ", ref_cves)
 cve_pattern = r"CVE-\d{4}-\d{4,7}"
 cve_list = list(set(re.findall(cve_pattern, str(data))))
 print("CVE trouvés :", cve_list)
+
+pourquoi vous galérez
